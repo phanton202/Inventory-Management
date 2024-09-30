@@ -1,0 +1,16 @@
+[INFO] 2024-09-30 13:52:10,236 views 44964 37244: testemail1@test.com => POST /items/ data[{'name': 'test 3', 'desc': 'test desc 3', 'quantity': 44, 'price': 23.55}]
+[INFO] 2024-09-30 13:52:10,257 views 44964 37244: testemail1@test.com => POST /items/ Item Saved:{'id': 12, 'name': 'test 3', 'desc': 'test desc 3', 'quantity': 44, 'price': '23.55'}
+[INFO] 2024-09-30 13:52:11,454 views 44964 37244: testemail1@test.com => POST /items/ data[{'name': 'test 3', 'desc': 'test desc 3', 'quantity': 44, 'price': 23.55}]
+[INFO] 2024-09-30 13:52:11,469 views 44964 37244: testemail1@test.com => POST /items/ Item Saved:{'id': 13, 'name': 'test 3', 'desc': 'test desc 3', 'quantity': 44, 'price': '23.55'}
+[INFO] 2024-09-30 13:52:12,650 views 44964 37244: testemail1@test.com => POST /items/ data[{'name': 'test 3', 'desc': 'test desc 3', 'quantity': 44, 'price': 23.55}]
+[INFO] 2024-09-30 13:52:12,669 views 44964 37244: testemail1@test.com => POST /items/ Item Saved:{'id': 14, 'name': 'test 3', 'desc': 'test desc 3', 'quantity': 44, 'price': '23.55'}
+[INFO] 2024-09-30 13:52:35,286 views 44964 47428: testemail1@test.com => GET /items/
+[INFO] 2024-09-30 14:05:13,113 views 44964 22368: testemail1@test.com => GET /items/8/
+[INFO] 2024-09-30 14:05:13,123 views 44964 22368: {'id': 8, 'name': 'test 3', 'desc': 'test desc 3', 'quantity': 44, 'price': '23.55'}
+[INFO] 2024-09-30 14:05:19,905 views 44964 47864: testemail1@test.com => GET /items/90/
+[ERROR] 2024-09-30 14:05:19,905 views 44964 47864: testemail1@test.com => Item ID 90 not found
+[INFO] 2024-09-30 14:05:25,770 views 44964 18992: testemail1@test.com => GET /items/91/
+[ERROR] 2024-09-30 14:05:25,770 views 44964 18992: testemail1@test.com => Item ID 91 not found
+[INFO] 2024-09-30 14:06:14,767 views 44964 34128: testemail1@test.com => PUT /items/11/ Item Updated:{'id': 11, 'name': 'test 11', 'desc': 'test desc11', 'quantity': 11, 'price': '125.76'}
+[ERROR] 2024-09-30 14:06:21,732 views 44964 34128: testemail1@test.com => DELETE /items/10/ Item ID 10 not found
+[INFO] 2024-09-30 14:06:29,624 views 44964 34128: testemail1@test.com => DELETE /items/14/ Item deleted: test 3
